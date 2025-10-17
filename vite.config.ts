@@ -7,7 +7,7 @@ import { componentTagger } from "lovable-tagger";
 export default defineConfig(({ mode }) => ({
   // *** CAMBIO NECESARIO AQUÍ  ***
   base: mode === 'production' ? '/VisorVariosGPX/' : '/', 
-  // *****************************
+  // ****************************
 
   server: {
     host: "::",
