@@ -5,6 +5,10 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
+  // *** CAMBIO NECESARIO AQUÍ ***
+  base: mode === 'production' ? '/VisorVariosGPX/' : '/', 
+  // *****************************
+
   server: {
     host: "::",
     port: 8080,
