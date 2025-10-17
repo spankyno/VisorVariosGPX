@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  // *** CAMBIO NECESARIO AQUÍ ***
+  // *** CAMBIO NECESARIO AQUÍ  ***
   base: mode === 'production' ? '/VisorVariosGPX/' : '/', 
   // *****************************
 
