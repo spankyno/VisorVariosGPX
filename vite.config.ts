@@ -4,6 +4,7 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
+base: "/VisorVariosGPX/",
 export default defineConfig(({ mode }) => ({
   server: {
     host: "::",
